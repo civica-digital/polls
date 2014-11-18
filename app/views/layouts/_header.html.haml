@@ -1,0 +1,8 @@
+%header.navbar.navbar-fixed-top
+  .container
+    = link_to "Polls", root_path, id: "logo"
+    %nav
+      %ul.nav.navbar-nav.pull-right
+        %li= link_to "Home",   page_path(id: 'home')
+        %li= link_to "Help",   page_path(id: 'help')
+        %li= link_to "Log in", '#'
