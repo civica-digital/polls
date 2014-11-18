@@ -48,6 +48,7 @@ gem 'high_voltage'
 gem 'pundit'
 gem 'sendgrid'
 gem 'simple_form'
+gem 'rapidfire', '2.0.0'
 
 group :development do
   gem 'better_errors'
